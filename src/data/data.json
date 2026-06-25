@@ -1,0 +1,72 @@
+{
+  "cafeterias": [
+    {
+      "id": "cafe-1",
+      "name": "The Quad Grill",
+      "description": "Home-style meals and grilled favourites, served fresh daily at the main quad.",
+      "image": "/images/quad-grill.jpg",
+      "rating": 4.5,
+      "deliveryTime": "15–25 min",
+      "menu": [
+        {
+          "id": "item-1",
+          "name": "Smoky Beef Burger",
+          "description": "Juicy beef patty with caramelised onions, cheddar, and smoky BBQ sauce.",
+          "price": 450,
+          "image": "/images/burger.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-2",
+          "name": "Grilled Chicken Wrap",
+          "description": "Tender grilled chicken with fresh vegetables and garlic herb sauce.",
+          "price": 350,
+          "image": "/images/wrap.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-3",
+          "name": "Tropical Mango Smoothie",
+          "description": "A refreshing blend of ripe mangoes, banana, and a splash of passion fruit.",
+          "price": 200,
+          "image": "/images/smoothie.jpg",
+          "category": "Drink"
+        }
+      ]
+    },
+    {
+      "id": "cafe-2",
+      "name": "Madaraka Bites",
+      "description": "Quick bites and Kenyan classics — chapati, pilau, and more from the heart of campus.",
+      "image": "/images/madaraka-bites.jpg",
+      "rating": 4.2,
+      "deliveryTime": "10–20 min",
+      "menu": [
+        {
+          "id": "item-4",
+          "name": "Chicken Pilau",
+          "description": "Aromatic spiced rice cooked with tender chicken pieces and fresh herbs.",
+          "price": 400,
+          "image": "/images/pilau.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-5",
+          "name": "Chapati & Bean Stew",
+          "description": "Soft layered chapati served with a rich, hearty bean stew.",
+          "price": 250,
+          "image": "/images/chapati.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-6",
+          "name": "Fresh Passion Juice",
+          "description": "Freshly squeezed passion fruit juice, naturally sweet and tangy.",
+          "price": 150,
+          "image": "/images/passion-juice.jpg",
+          "category": "Drink"
+        }
+      ]
+    }
+  ]
+}
