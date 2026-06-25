@@ -1,16 +1,46 @@
-# React + Vite
+# StratsBites 🎓🍔
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A campus food delivery MVP built with React, Vite, and React Router for Strathmore University cafeterias.
 
-Currently, two official plugins are available:
+This is a group project designed to practice core React concepts (components, routing, props, state, context) and Git/GitHub collaboration workflows.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 Quick Start Documentation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To guide your development, we have prepared two detailed guides:
 
-## Expanding the Oxlint configuration
+1.  **[StratsBites Build Guide (Step-by-Step)](STRATSBITES_BUILD_GUIDE.md)**: Explains what to build in each file, the React concepts behind it, the code templates, and corresponding styles.
+2.  **[Team Collaboration & Git Workflow Guide](TEAM_COLLABORATION_GUIDE.md)**: Suggests how to divide the work among the 4 members, how to use feature branches, and how to coordinate merges on GitHub.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack & Commands
+
+*   **Framework:** React (Vite-based)
+*   **Routing:** React Router v7 (`react-router-dom`)
+*   **Styling:** Vanilla CSS (written in `src/App.css` and `src/index.css`)
+
+### Local Development
+
+1.  Clone the repository and install the dependencies:
+    ```bash
+    git clone https://github.com/nyongesakennedy06-afk/Web_dev_project.git
+    cd Web_dev_project
+    npm install
+    ```
+2.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+3.  Open the page in your browser at the address shown in the terminal (usually `http://localhost:5173/` or `http://localhost:5174/`).
+
+---
+
+## 📂 Project Structure
+
+*   `src/components/` — Reusable elements (Header, Layout, CafeteriaCard, MenuItem)
+*   `src/pages/` — Main views (HomePage, CafeteriaMenuPage, CheckoutPage)
+*   `src/data/` — Static mock database (`data.json`) containing cafeteria and food items.
+*   `src/App.js` — Route configuration.
+*   `src/App.css` — Global CSS styling sheets.

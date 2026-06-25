@@ -866,15 +866,17 @@ Then map over `cart` to display items and show `getTotal()` as the order total.
 
 ## Suggested Team Task Split
 
+To see a complete breakdown of roles, responsibilities, git commands, and the project timeline, see the **[Team Collaboration & Git Workflow Guide](TEAM_COLLABORATION_GUIDE.md)**.
+
 | Member | Pages/Components | Steps |
 |--------|-----------------|-------|
-| Member A | Header.js + Layout.js | Steps 1–2 |
+| Member A (Team Lead) | Header.js + Layout.js + CartContext | Steps 1–2, 8 |
 | Member B | HomePage.js + CafeteriaCard.js | Steps 3–4 |
 | Member C | CafeteriaMenuPage.js + MenuItem.js | Steps 5–6 |
-| Member D | CheckoutPage.js + CartContext | Steps 7–8 |
+| Member D | CheckoutPage.js UI + Testing/Assets | Step 7 |
 
 > [!IMPORTANT]
-> **Work in order.** Steps 1–2 must be done first so the layout is visible. Then Steps 3–6 can be done in parallel. Step 7–8 comes last.
+> **Work in order.** Steps 1–2 must be done first so the layout is visible. Then Steps 3–7 can be done in parallel. Step 8 (CartContext wiring) comes last. Check out the collaboration guide for the step-by-step branching workflow to avoid merge conflicts!
 
 ---
 
