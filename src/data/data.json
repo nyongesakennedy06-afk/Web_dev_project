@@ -2,27 +2,27 @@
   "cafeterias": [
     {
       "id": "cafe-1",
-      "name": "The Quad Grill",
-      "description": "Home-style meals and grilled favourites, served fresh daily at the main quad.",
+      "name": "Pate Cafeteria",
+      "description": "Home made meals made with natural ingredients, available for all",
       "image": "/images/quad-grill.jpg",
       "rating": 4.5,
       "deliveryTime": "15–25 min",
       "menu": [
         {
           "id": "item-1",
-          "name": "Smoky Beef Burger",
-          "description": "Juicy beef patty with caramelised onions, cheddar, and smoky BBQ sauce.",
-          "price": 450,
+          "name": "Chicken wings",
+          "description": "Juicy chicken wings dipped in BBQ sauced and served with some salsa, served in portions of 4",
+          "price": 100,
           "image": "/images/burger.jpg",
-          "category": "Main"
+          "category": "Side"
         },
         {
           "id": "item-2",
-          "name": "Grilled Chicken Wrap",
-          "description": "Tender grilled chicken with fresh vegetables and garlic herb sauce.",
-          "price": 350,
+          "name": "Shawarma",
+          "description": "Grilled shawarma bread packed with chopped chicken breast, onions, tomatoes and lettuce, as well as ketchup and BBQ sauce",
+          "price": 250,
           "image": "/images/wrap.jpg",
-          "category": "Main"
+          "category": "Side"
         },
         {
           "id": "item-3",
@@ -31,40 +31,692 @@
           "price": 200,
           "image": "/images/smoothie.jpg",
           "category": "Drink"
+        },
+        {
+          "id": "item-4",
+          "name": "Fries",
+          "description": "Crispy French fries topped with pepper and himalayan pink salt, served with kachumbari",
+          "price": 150,
+          "image": "/images/fries.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-5",
+          "name": "Ugali & Sukuma Wiki",
+          "description": "Soft, warm ugali served alongside a generous helping of sautéed collard greens",
+          "price": 150,
+          "image": "/images/ugali-sukuma.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-6",
+          "name": "Beef Stew with Rice",
+          "description": "Slow-cooked beef chunks in a rich tomato stew, served with a bed of steamed rice",
+          "price": 300,
+          "image": "/images/beef-stew-rice.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-7",
+          "name": "Beef Samosas",
+          "description": "Crispy pastry triangles filled with spiced minced beef, served in portions of 4",
+          "price": 50,
+          "image": "/images/samosa.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-8",
+          "name": "Chapati (2 pieces)",
+          "description": "Soft, layered chapati made fresh, perfect on its own or as a side",
+          "price": 40,
+          "image": "/images/chapati.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-9",
+          "name": "Grilled Tilapia",
+          "description": "Whole tilapia grilled to perfection, served with ugali and kachumbari",
+          "price": 450,
+          "image": "/images/tilapia.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-10",
+          "name": "Assorted Soda",
+          "description": "Choice of Coca-Cola, Fanta, Sprite or Krest, served ice cold",
+          "price": 80,
+          "image": "/images/soda.jpg",
+          "category": "Drink"
         }
       ]
     },
     {
       "id": "cafe-2",
-      "name": "Madaraka Bites",
-      "description": "Quick bites and Kenyan classics — chapati, pilau, and more from the heart of campus.",
-      "image": "/images/madaraka-bites.jpg",
-      "rating": 4.2,
+      "name": "Springs of Olives",
+      "description": "Fresh, wholesome meals with a Mediterranean touch, blended with local favorites.",
+      "image": "/images/springs-of-olives.jpg",
+      "rating": 4.3,
+      "deliveryTime": "20–30 min",
+      "menu": [
+        {
+          "id": "item-11",
+          "name": "Grilled Chicken Breast",
+          "description": "Tender chicken breast marinated in herbs and grilled, served with steamed vegetables",
+          "price": 350,
+          "image": "/images/grilled-chicken-breast.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-12",
+          "name": "Beef Pilau",
+          "description": "Aromatic spiced rice cooked with tender beef cubes and warm spices",
+          "price": 300,
+          "image": "/images/beef-pilau.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-13",
+          "name": "Greek-Style Salad",
+          "description": "Crisp cucumber, tomato, olives and feta cheese tossed in olive oil dressing",
+          "price": 200,
+          "image": "/images/greek-salad.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-14",
+          "name": "Falafel Wrap",
+          "description": "Crispy falafel balls wrapped in soft flatbread with hummus and fresh veggies",
+          "price": 250,
+          "image": "/images/falafel-wrap.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-15",
+          "name": "Ugali with Beef Stew",
+          "description": "Classic ugali paired with a hearty, well-spiced beef stew",
+          "price": 250,
+          "image": "/images/ugali-beef-stew.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-16",
+          "name": "Chicken Samosas (4pcs)",
+          "description": "Golden fried samosas filled with spiced shredded chicken",
+          "price": 150,
+          "image": "/images/chicken-samosa.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-17",
+          "name": "Mandazi (3pcs)",
+          "description": "Soft, lightly sweetened East African fried dough, best with tea",
+          "price": 100,
+          "image": "/images/mandazi.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-18",
+          "name": "Fresh Watermelon Juice",
+          "description": "Chilled, naturally sweet watermelon juice, freshly blended",
+          "price": 150,
+          "image": "/images/watermelon-juice.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-19",
+          "name": "Coca-Cola",
+          "description": "Ice-cold classic Coca-Cola, served in a bottle",
+          "price": 70,
+          "image": "/images/coca-cola.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-20",
+          "name": "Beef Sausages (Boerewors)",
+          "description": "Grilled beef sausages seasoned with traditional spices, sliced and served",
+          "price": 200,
+          "image": "/images/boerewors.jpg",
+          "category": "Side"
+        }
+      ]
+    },
+    {
+      "id": "cafe-3",
+      "name": "Afya Corner",
+      "description": "Healthy, balanced meals for the health-conscious student — nutritious without compromising on taste.",
+      "image": "/images/afya-corner.jpg",
+      "rating": 4.6,
+      "deliveryTime": "15–25 min",
+      "menu": [
+        {
+          "id": "item-21",
+          "name": "Grilled Fish Fillet",
+          "description": "Lightly seasoned fish fillet grilled and served with a squeeze of lemon",
+          "price": 400,
+          "image": "/images/grilled-fish-fillet.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-22",
+          "name": "Steamed Vegetables & Brown Rice",
+          "description": "A nutrient-packed bowl of steamed seasonal vegetables over brown rice",
+          "price": 250,
+          "image": "/images/veggies-brown-rice.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-23",
+          "name": "Lentil Soup (Dengu)",
+          "description": "Warm, hearty lentil soup cooked with tomatoes, onions and mild spices",
+          "price": 150,
+          "image": "/images/dengu-soup.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-24",
+          "name": "Avocado & Egg Sandwich",
+          "description": "Whole grain bread layered with creamy avocado and boiled egg slices",
+          "price": 180,
+          "image": "/images/avocado-egg-sandwich.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-25",
+          "name": "Fruit Salad Bowl",
+          "description": "A colorful mix of seasonal fresh fruits, lightly tossed together",
+          "price": 150,
+          "image": "/images/fruit-salad.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-26",
+          "name": "Sweet Potato Fries",
+          "description": "Baked sweet potato fries lightly salted, a healthier take on a classic",
+          "price": 120,
+          "image": "/images/sweet-potato-fries.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-27",
+          "name": "Fresh Pineapple Juice",
+          "description": "Freshly pressed pineapple juice, naturally sweet and refreshing",
+          "price": 150,
+          "image": "/images/pineapple-juice.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-28",
+          "name": "Herbal Tea",
+          "description": "A soothing blend of natural herbs, served hot",
+          "price": 80,
+          "image": "/images/herbal-tea.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-29",
+          "name": "Grilled Chicken Salad",
+          "description": "Grilled chicken strips over a bed of fresh greens with a light vinaigrette",
+          "price": 300,
+          "image": "/images/grilled-chicken-salad.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-30",
+          "name": "Boiled Eggs (2pcs)",
+          "description": "Simple, protein-packed boiled eggs, lightly salted",
+          "price": 60,
+          "image": "/images/boiled-eggs.jpg",
+          "category": "Side"
+        }
+      ]
+    },
+    {
+      "id": "cafe-4",
+      "name": "Fancy Enterprises",
+      "description": "Indulgent comfort food and campus favorites, made fast and served fresh.",
+      "image": "/images/fancy-enterprises.jpg",
+      "rating": 4.1,
       "deliveryTime": "10–20 min",
       "menu": [
         {
-          "id": "item-4",
-          "name": "Chicken Pilau",
-          "description": "Aromatic spiced rice cooked with tender chicken pieces and fresh herbs.",
+          "id": "item-31",
+          "name": "Beef Burger & Fries",
+          "description": "A juicy beef patty in a soft bun with lettuce, tomato and cheese, served with fries",
+          "price": 350,
+          "image": "/images/beef-burger-fries.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-32",
+          "name": "Pork Chops",
+          "description": "Grilled pork chops seasoned and served with a side of vegetables",
           "price": 400,
-          "image": "/images/pilau.jpg",
+          "image": "/images/pork-chops.jpg",
           "category": "Main"
         },
         {
-          "id": "item-5",
-          "name": "Chapati & Bean Stew",
-          "description": "Soft layered chapati served with a rich, hearty bean stew.",
-          "price": 250,
-          "image": "/images/chapati.jpg",
-          "category": "Main"
+          "id": "item-33",
+          "name": "Chicken Nuggets (6pcs)",
+          "description": "Crispy breaded chicken nuggets, served with a dip of your choice",
+          "price": 200,
+          "image": "/images/chicken-nuggets.jpg",
+          "category": "Side"
         },
         {
-          "id": "item-6",
-          "name": "Fresh Passion Juice",
-          "description": "Freshly squeezed passion fruit juice, naturally sweet and tangy.",
+          "id": "item-34",
+          "name": "Beef Sausage Rolls",
+          "description": "Flaky pastry rolls wrapped around seasoned beef sausage",
           "price": 150,
-          "image": "/images/passion-juice.jpg",
+          "image": "/images/sausage-rolls.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-35",
+          "name": "Cheesy Chips",
+          "description": "Crispy fries loaded with melted cheese and a drizzle of sauce",
+          "price": 200,
+          "image": "/images/cheesy-chips.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-36",
+          "name": "Chocolate Milkshake",
+          "description": "Thick, creamy chocolate milkshake topped with a dollop of cream",
+          "price": 250,
+          "image": "/images/chocolate-milkshake.jpg",
           "category": "Drink"
+        },
+        {
+          "id": "item-37",
+          "name": "Fanta",
+          "description": "Ice-cold Fanta Orange, served in a bottle",
+          "price": 70,
+          "image": "/images/fanta.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-38",
+          "name": "Rice & Beef Stir Fry",
+          "description": "Steamed rice tossed with stir-fried beef strips and vegetables",
+          "price": 300,
+          "image": "/images/beef-stir-fry.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-39",
+          "name": "Chicken Biryani",
+          "description": "Fragrant spiced rice layered with tender chicken pieces",
+          "price": 350,
+          "image": "/images/chicken-biryani.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-40",
+          "name": "Vegetable Samosas",
+          "description": "Crispy pastry triangles filled with spiced mixed vegetables, served in portions of 4",
+          "price": 50,
+          "image": "/images/veg-samosa.jpg",
+          "category": "Side"
+        }
+      ]
+    },
+    {
+      "id": "cafe-5",
+      "name": "SU Groundfloor",
+      "description": "The go-to spot for quick, affordable Kenyan classics between classes.",
+      "image": "/images/su-groundfloor.jpg",
+      "rating": 4.0,
+      "deliveryTime": "10–15 min",
+      "menu": [
+        {
+          "id": "item-41",
+          "name": "Ugali, Sukuma na Nyama",
+          "description": "Ugali served with sautéed greens and a portion of stewed meat",
+          "price": 200,
+          "image": "/images/ugali-sukuma-nyama.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-42",
+          "name": "Chapati Beans",
+          "description": "Soft chapati served alongside a generous serving of well-spiced beans",
+          "price": 150,
+          "image": "/images/chapati-beans.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-43",
+          "name": "Pilau na Kachumbari",
+          "description": "Spiced pilau rice served with a fresh tomato and onion kachumbari",
+          "price": 250,
+          "image": "/images/pilau-kachumbari.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-44",
+          "name": "Githeri Special",
+          "description": "A hearty mix of maize and beans cooked with vegetables and spices",
+          "price": 150,
+          "image": "/images/githeri.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-45",
+          "name": "Mutura (2 pieces)",
+          "description": "Traditional Kenyan sausage made with minced meat and spices, grilled",
+          "price": 100,
+          "image": "/images/mutura.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-46",
+          "name": "Roasted Maize",
+          "description": "Fire-roasted maize cob, a favorite campus snack",
+          "price": 50,
+          "image": "/images/roasted-maize.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-47",
+          "name": "Mursik",
+          "description": "Traditional fermented milk, a rich and tangy Kenyan delicacy",
+          "price": 100,
+          "image": "/images/mursik.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-48",
+          "name": "Chai ya Maziwa",
+          "description": "Hot, milky Kenyan tea, brewed with fresh milk and tea leaves",
+          "price": 50,
+          "image": "/images/chai.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-49",
+          "name": "Sausage & Chips",
+          "description": "Grilled sausages served with a hearty portion of fries",
+          "price": 200,
+          "image": "/images/sausage-chips.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-50",
+          "name": "Assorted Soda",
+          "description": "Choice of Coca-Cola, Fanta, Sprite or Krest, served ice cold",
+          "price": 70,
+          "image": "/images/soda-2.jpg",
+          "category": "Drink"
+        }
+      ]
+    },
+    {
+      "id": "cafe-6",
+      "name": "SU Rooftop",
+      "description": "Relaxed rooftop dining with a mix of grills, snacks, and refreshing drinks.",
+      "image": "/images/su-rooftop.jpg",
+      "rating": 4.4,
+      "deliveryTime": "20–30 min",
+      "menu": [
+        {
+          "id": "item-51",
+          "name": "Grilled Chicken Wings",
+          "description": "Smoky grilled chicken wings marinated overnight, served in portions of 4",
+          "price": 200,
+          "image": "/images/grilled-wings.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-52",
+          "name": "Nyama Choma (Beef, 250g)",
+          "description": "Classic Kenyan roasted beef, grilled over open flame and served with kachumbari",
+          "price": 400,
+          "image": "/images/nyama-choma.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-53",
+          "name": "Pork Ribs",
+          "description": "Slow-grilled pork ribs glazed with a smoky BBQ sauce",
+          "price": 450,
+          "image": "/images/pork-ribs.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-54",
+          "name": "Chips Masala",
+          "description": "Fries tossed in a spiced tomato masala sauce with onions and peppers",
+          "price": 200,
+          "image": "/images/chips-masala.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-55",
+          "name": "Beef Skewers (Mishkaki)",
+          "description": "Marinated beef cubes grilled on skewers, packed with flavor",
+          "price": 250,
+          "image": "/images/mishkaki.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-56",
+          "name": "Chicken Shawarma Wrap",
+          "description": "Grilled chicken wrapped in flatbread with vegetables and garlic sauce",
+          "price": 300,
+          "image": "/images/chicken-shawarma.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-57",
+          "name": "Mango Juice",
+          "description": "Sweet, chilled mango juice, freshly blended",
+          "price": 150,
+          "image": "/images/mango-juice.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-58",
+          "name": "Iced Lemon Tea",
+          "description": "Refreshing chilled tea infused with fresh lemon",
+          "price": 120,
+          "image": "/images/iced-lemon-tea.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-59",
+          "name": "Assorted Soda",
+          "description": "Choice of Coca-Cola, Fanta, Sprite or Krest, served ice cold",
+          "price": 80,
+          "image": "/images/soda-3.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-60",
+          "name": "Grilled Whole Tilapia",
+          "description": "A whole tilapia grilled and seasoned, served with ugali and greens",
+          "price": 500,
+          "image": "/images/whole-tilapia.jpg",
+          "category": "Main"
+        }
+      ]
+    },
+    {
+      "id": "cafe-7",
+      "name": "Phase 1 Cafeteria",
+      "description": "Classic student cafeteria serving generous portions of home-style Kenyan food.",
+      "image": "/images/phase-1-cafeteria.jpg",
+      "rating": 3.9,
+      "deliveryTime": "15–25 min",
+      "menu": [
+        {
+          "id": "item-61",
+          "name": "Ugali na Samaki",
+          "description": "Ugali served with a well-seasoned fried fish and tomato sauce",
+          "price": 250,
+          "image": "/images/ugali-samaki.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-62",
+          "name": "Beef Stew & Rice",
+          "description": "Rich beef stew simmered with vegetables, served over steamed rice",
+          "price": 250,
+          "image": "/images/beef-stew-rice-2.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-63",
+          "name": "Chicken Curry & Chapati",
+          "description": "Tender chicken pieces in a mild curry sauce, served with soft chapati",
+          "price": 300,
+          "image": "/images/chicken-curry-chapati.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-64",
+          "name": "Matumbo Stew",
+          "description": "Traditional tripe stew slow-cooked with onions, tomatoes and spices",
+          "price": 200,
+          "image": "/images/matumbo.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-65",
+          "name": "Kachumbari & Chips",
+          "description": "Crispy fries served with a fresh side of tomato and onion kachumbari",
+          "price": 150,
+          "image": "/images/kachumbari-chips.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-66",
+          "name": "Boiled Maize & Beans (Githeri)",
+          "description": "A filling, traditional mix of boiled maize and beans",
+          "price": 120,
+          "image": "/images/githeri-2.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-67",
+          "name": "Chicken Samosas",
+          "description": "Crispy pastry triangles filled with spiced shredded chicken, served in portions of 4",
+          "price": 60,
+          "image": "/images/chicken-samosa-2.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-68",
+          "name": "Mandazi (2pcs)",
+          "description": "Soft, lightly sweetened fried dough, a campus favorite",
+          "price": 60,
+          "image": "/images/mandazi-2.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-69",
+          "name": "Tamarind Juice",
+          "description": "Tangy-sweet tamarind juice, chilled and refreshing",
+          "price": 100,
+          "image": "/images/tamarind-juice.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-70",
+          "name": "Assorted Soda",
+          "description": "Choice of Coca-Cola, Fanta, Sprite or Krest, served ice cold",
+          "price": 70,
+          "image": "/images/soda-4.jpg",
+          "category": "Drink"
+        }
+      ]
+    },
+    {
+      "id": "cafe-8",
+      "name": "Upesi Joint",
+      "description": "Fast, no-fuss meals for students on the move — quick service, big flavors.",
+      "image": "/images/upesi-joint.jpg",
+      "rating": 4.2,
+      "deliveryTime": "5–15 min",
+      "menu": [
+        {
+          "id": "item-71",
+          "name": "Chips & Sausage",
+          "description": "Crispy fries served with grilled sausages, a quick campus classic",
+          "price": 200,
+          "image": "/images/chips-sausage.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-72",
+          "name": "Chicken Wings & Fries",
+          "description": "Golden fried chicken wings served with a side of crispy fries",
+          "price": 300,
+          "image": "/images/wings-fries.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-73",
+          "name": "Beef Burger",
+          "description": "A simple, satisfying beef patty burger with lettuce and tomato",
+          "price": 300,
+          "image": "/images/beef-burger.jpg",
+          "category": "Main"
+        },
+        {
+          "id": "item-74",
+          "name": "Egg Chapati Wrap",
+          "description": "Soft chapati wrapped around a fried egg and fresh vegetables",
+          "price": 150,
+          "image": "/images/egg-chapati-wrap.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-75",
+          "name": "Smokies (2pcs)",
+          "description": "Classic grilled smokies, a quick and popular campus snack",
+          "price": 60,
+          "image": "/images/smokies.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-76",
+          "name": "Potato Bhajia",
+          "description": "Spiced potato slices dipped in batter and deep fried until golden",
+          "price": 100,
+          "image": "/images/bhajia.jpg",
+          "category": "Side"
+        },
+        {
+          "id": "item-77",
+          "name": "Fresh Orange Juice",
+          "description": "Freshly squeezed orange juice, naturally sweet and tangy",
+          "price": 130,
+          "image": "/images/orange-juice.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-78",
+          "name": "Energy Drink",
+          "description": "A chilled can of energy drink to keep you going between classes",
+          "price": 150,
+          "image": "/images/energy-drink.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-79",
+          "name": "Assorted Soda",
+          "description": "Choice of Coca-Cola, Fanta, Sprite or Krest, served ice cold",
+          "price": 70,
+          "image": "/images/soda-5.jpg",
+          "category": "Drink"
+        },
+        {
+          "id": "item-80",
+          "name": "Rice & Beef Stew",
+          "description": "Steamed rice served with a generous portion of tender beef stew",
+          "price": 250,
+          "image": "/images/rice-beef-stew.jpg",
+          "category": "Main"
         }
       ]
     }

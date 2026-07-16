@@ -102,7 +102,7 @@ git pull origin main
 
 # 3. Create and switch to your feature branch (use descriptive names)
 git checkout -b feature/homepage-cards
-```
+```9
 
 > [!IMPORTANT]
 > **Rule:** One branch per feature. Never edit files belonging to other steps unless coordinated!

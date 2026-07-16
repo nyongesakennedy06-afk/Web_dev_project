@@ -3,13 +3,13 @@ import Header from './Header.js';
 
 const Layout = () => {
   return (
-    <div>
+    <div className='page-wrapper'>
       <Header />
-      <main>
+      <main className='main-content'>
         <Outlet />
       </main>
       <footer>
-        {/* TODO: Add your footer content */}
+        <p className='footer'>© StrattsBites by SU: Est in 2026</p>  
       </footer>
     </div>
   );

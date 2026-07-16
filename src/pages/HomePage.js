@@ -2,9 +2,21 @@ import data from '../data/data.json';
 import CafeteriaCard from '../components/CafeteriaCard.js';
 
 const HomePage = () => {
+  const { cafeterias } = data;
   return (
     <div>
-      {/* TODO: Build your home page UI */}
+      <section className='hero'>
+        <h1 className='hero-title'>STC Delivered to Your Doorstep</h1>
+        <p className='hero-subtitle'>Order directly from your favorite SU cafeterias</p>
+      </section>
+      <section>
+        <h2 className='section-title'>University Cafeterias:</h2>
+        <div className='cafeteria-grid'>
+          {cafeterias.map((cafeteria) => (
+            <CafeteriaCard key={cafeteria.id} cafeteria={cafeteria} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 };

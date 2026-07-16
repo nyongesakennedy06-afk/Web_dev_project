@@ -14,4 +14,18 @@ const transformJsxInJs = () => ({
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), transformJsxInJs()],
+  optimizeDeps: {
+    rolldownOptions: {
+      moduleTypes: {
+        '.js': 'jsx',
+      },
+    },
+  },
+  build: {
+    rolldownOptions: {
+      moduleTypes: {
+        '.js': 'jsx',
+      },
+    },
+  },
 })
