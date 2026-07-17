@@ -247,3 +247,38 @@
   background: #333333;
   color: gold;
 }
+
+.checkout {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.checkout-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.checkout-empty {
+  text-align: center;
+  padding: 48px;
+  color: #64748b;
+}
+
+.checkout__empty-icon {
+  font-size: 4rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.checkout-empty-text {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+.btn--lg {
+  padding: 16px 32px;
+  font-size: 1rem;
+  border-radius: 12px;
+}
