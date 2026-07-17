@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const CheckoutPage = () => {
-  const cart = [];
+  const { cart, removeFromCart, getTotal } = useCart();
 
   return (
     <div className='checkout'>

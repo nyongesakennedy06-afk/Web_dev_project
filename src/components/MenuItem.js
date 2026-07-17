@@ -1,4 +1,8 @@
+import { useCart } from '../context/CartContext.js';
+
 const MenuItem = ({ item }) => {
+  const { addToCart } = useCart();
+
   return (
     <div className="menu-item">
       <div className="menu-item-image" />
@@ -10,9 +14,9 @@ const MenuItem = ({ item }) => {
       <div>
         <button
           className="btn btn--primary"
-          onClick={() => alert(`Added "${item.name}" to cart!!`)}
-          >
-            + Add
+          onClick={() => addToCart(item)}>+ Add
+          
+            
         </button>
       </div>
     </div>
