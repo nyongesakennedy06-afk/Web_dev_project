@@ -316,8 +316,12 @@
 }
 
 .dark-mode .footer {
-  color: white;
-  border-top: 1px solid #444;
+  text-align: center;
+  padding: 32px 16px;
+  color: goldenrod;
+  font-size: 1.3rem;
+  background: #1f1f1f;
+  font-size: 1.2rem;
 }
 
 .dark-mode .cafeteria-card {
@@ -352,6 +356,36 @@
 
 .dark-mode .back-link {
   color: white;
+}
+.dark-mode .checkout-title {
+  color: #f8fafc;
+}
+.dark-mode .back-link2 {
+  color: #cbd5e1;
+}
+.dark-mode .back-link2:hover {
+  color: goldenrod;
+}
+
+.dark-mode .checkout-total {
+  color: #ffffff;
+  border-top-color: rgba(255, 255, 255, 0.1); 
+}
+
+.dark-mode .btn--primary {
+  background: goldenrod;
+  color: #0f172a; 
+}
+.dark-mode .btn--primary:hover {
+  background: gold;
+}
+
+.dark-mode .btn--secondary {
+  background: #334155;
+  color: #f8fafc;
+}
+.dark-mode .btn--secondary:hover {
+  background: #475569;
 }
 
 .dark-mode .menu-header-desc,
