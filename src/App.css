@@ -282,3 +282,82 @@
   font-size: 1rem;
   border-radius: 12px;
 }
+/* ===========================
+   DARK MODE
+=========================== */
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .header {
+  background-color: #1f1f1f;
+  border-bottom: 1px solid #444;
+}
+
+.dark-mode .header_link {
+  color: white;
+}
+
+.dark-mode .header_link:hover {
+  color: gold;
+}
+
+.dark-mode .footer {
+  color: white;
+  border-top: 1px solid #444;
+}
+
+.dark-mode .cafeteria-card {
+  background-color: #242424;
+  border-color: #444;
+}
+
+.dark-mode .cafeteria-name {
+  color: white;
+}
+
+.dark-mode .cafeteria-desc {
+  color: #d1d5db;
+}
+
+.dark-mode .menu-item {
+  background-color: #242424;
+  border-color: #444;
+}
+
+.dark-mode .menu-item-name {
+  color: white;
+}
+
+.dark-mode .menu-item-desc {
+  color: #d1d5db;
+}
+
+.dark-mode .checkout {
+  color: white;
+}
+
+.dark-mode .back-link {
+  color: white;
+}
+
+.dark-mode .menu-header-desc,
+.dark-mode .menu-header-info,
+.dark-mode .cafeteria-card-meta {
+  color: #d1d5db;
+}
+.theme_btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #333;
+  color: gold;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.theme_btn:hover {
+  background-color: goldenrod;
+  color: black;
+}
