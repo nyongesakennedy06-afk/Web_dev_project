@@ -9,7 +9,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer>
-        <p className='footer'>© StrattsBites by SU: Est in 2026</p>  
+        <p className='footer'>© StrattsBites by SU: Est in 2026</p>
       </footer>
     </div>
   );
