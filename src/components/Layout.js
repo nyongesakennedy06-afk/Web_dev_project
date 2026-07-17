@@ -12,7 +12,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer>
-        <p className='footer'>© StrathsBites by SU: Est in 2026</p>  
+        <p className='footer'>© StrathsBites by SU: Est in 2026</p>
       </footer>
     </div>
   );

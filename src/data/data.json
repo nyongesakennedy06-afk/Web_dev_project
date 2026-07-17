@@ -13,7 +13,7 @@
           "name": "Chicken wings",
           "description": "Juicy chicken wings dipped in BBQ sauced and served with some salsa, served in portions of 4",
           "price": 100,
-          "image": "/images/burger.jpg",
+          "image": "/images/burger.jpeg",
           "category": "Side"
         },
         {
